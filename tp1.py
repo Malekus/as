@@ -8,7 +8,6 @@ def e(x):
 def De(x):
     return 4*x**3-33*x**2+82*x-61
 
-
 def DG1(x0,mu, epsi=0.01, n_max=1000):
     x1 = x0-mu*De(x0)
     i = 0
